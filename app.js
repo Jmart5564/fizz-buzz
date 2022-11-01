@@ -1,6 +1,7 @@
-// grab DOM elements
 
-// set event listeners
-    // get info from user input
-    // use user input to update state
-    // update DOM to reflect the new state
+for (var i = 1; i <= 100; i++) {
+    if (i % 3 === 0 && i % 5 === 0) console.log('FizzBuzz');
+    else if (i % 3 === 0) console.log('Fizz');
+    else if (i % 5 === 0) console.log('Buzz');
+    else console.log(i);
+}
